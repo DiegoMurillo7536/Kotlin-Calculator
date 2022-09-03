@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal" >
+
+    <Button
+
+        android:text="INSERTE DATOS"
+        android:layout_columnSpan="4"
+
+        android:layout_gravity="fill"/>
+
+
+    /*Botones de la fila 1*/
+    <Button
+        android:layout_column="0"
+        android:text="MC" />
+    <Button
+        android:layout_column="1"
+        android:text="MR" />
+    <Button
+        android:layout_column="3"
+        android:text="MS" />
+    <Button
+        android:layout_column="2"
+        android:text="M+" />
+
+    /*Botones de la fila 2*/
+    <Button
+        android:layout_column="0"
+        android:text="%" />
+
+    <Button
+        android:layout_column="1"
+        android:text="√" />
+
+    <Button android:text="X²" />
+
+    <Button android:text="1/x²" />
+
+    <Button android:text="CE" />
+
+    <Button android:text="C" />
+
+   <Button android:text="<X" />
+
+
+    <Button android:text="/" />
+    /*Botones Fila 3*/
+    <Button android:text="7" />
+
+    <Button android:text="8" />
+
+    <Button android:text="9" />
+
+    <Button android:text="x" />
+    /*Botones Fila 4*/
+    <Button android:text="4" />
+
+    <Button android:text="5" />
+
+    <Button android:text="6" />
+
+    <Button android:text="-" />
+
+    /*Botones fila 5*/
+    <Button android:text="1" />
+
+    <Button android:text="2" />
+
+    <Button android:text="3" />
+
+    <Button android:text="+" />
+
+    /*Botones fila 6*/
+    <Button android:text="±" />
+
+    <Button android:text="0" />
+
+    <Button android:text="." />
+
+    <Button android:text="=" />
+
+
+</GridLayout>
